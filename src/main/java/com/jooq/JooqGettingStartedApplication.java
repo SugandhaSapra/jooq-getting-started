@@ -1,4 +1,4 @@
-package com.melisende.jooqgettingstarted;
+package com.jooq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

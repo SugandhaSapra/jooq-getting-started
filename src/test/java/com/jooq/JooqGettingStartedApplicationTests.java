@@ -1,4 +1,4 @@
-package com.melisende.jooqgettingstarted;
+package com.jooq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
