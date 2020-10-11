@@ -1,0 +1,13 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - "15432:5432"
+    restart: always
+    volumes:
+      - ./sql/postgres:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'password'
+      POSTGRES_DB: 'writerpad'

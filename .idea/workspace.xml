@@ -5,12 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jooq-getting-started.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jooq/controller/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/DefaultCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Public.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Sequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/pojos/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/records/BookRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/DefaultCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Public.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Sequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/tables/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/tables/records/BookRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jooq-getting-started-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jooq.JooqGettingStartedApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.jooq.JooqGettingStartedApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/melisende/jooqgettingstarted/JooqGettingStartedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/JooqGettingStartedApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/melisende/jooqgettingstarted/JooqGettingStartedApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jooq/JooqGettingStartedApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jooq-getting-started.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jooq-getting-started.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/JooqGettingStartedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/JooqGettingStartedApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,7 +64,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -42,7 +75,92 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jooq.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jooq.entities" />
+      <recent name="com.jooq.type" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JooqGettingStartedApplication">
+    <configuration name="JooqGettingStartedApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jooq.JooqGettingStartedApplication" />
+      <module name="jooq-getting-started" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jooq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_be_able_to_add_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jooq-getting-started" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jooq.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jooq.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.jooq.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_be_able_to_add_book" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_get_books" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jooq-getting-started" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jooq.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jooq.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.jooq.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_get_books" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JooqGettingStartedApplication" />
+        <item itemvalue="JUnit.BookControllerTest.should_be_able_to_add_book" />
+        <item itemvalue="JUnit.BookControllerTest.should_get_books" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,5 +172,35 @@
       <updated>1602355566532</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="244" key="GridCell.Tab.0.bottom" timestamp="1602412945427">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state width="1320" height="244" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602412945427" />
+    <state width="1320" height="244" key="GridCell.Tab.0.center" timestamp="1602412945426">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state width="1320" height="244" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602412945426" />
+    <state width="1320" height="244" key="GridCell.Tab.0.left" timestamp="1602412945426">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state width="1320" height="244" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602412945426" />
+    <state width="1320" height="244" key="GridCell.Tab.0.right" timestamp="1602412945426">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state width="1320" height="244" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602412945426" />
+    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602410880594">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.692@0.27.1366.692" timestamp="1602410880594" />
+    <state x="449" y="190" width="458" height="363" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602410181317">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="449" y="190" width="458" height="363" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.692@0.27.1366.692" timestamp="1602410181317" />
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1602403555277">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup/0.27.1366.692@0.27.1366.692" timestamp="1602403555277" />
   </component>
 </project>
