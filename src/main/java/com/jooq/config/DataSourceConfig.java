@@ -11,7 +11,7 @@ public class DataSourceConfig {
 
     public static DataSource createDataSource() {
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl("jdbc:postgresql://localhost:15432/writerpad");
+        config.setJdbcUrl("jdbc:postgresql://localhost:15432/dvdrental");
         config.setUsername("user");
         config.setPassword("password");
         config.setAutoCommit(true);

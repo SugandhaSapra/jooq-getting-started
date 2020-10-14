@@ -86,7 +86,7 @@
 							<!--Insert your DB configuration-->
 							<jdbc>
 								<driver>org.postgresql.Driver</driver>
-								<url>jdbc:postgresql://localhost:15432/writerpad</url>
+								<url>jdbc:postgresql://localhost:15432/dvdrental</url>
 								<user>user</user>
 								<password>password</password>
 							</jdbc>
@@ -100,12 +100,8 @@
 									<inputSchema>public</inputSchema>
 								</database>
 								<target>
-									<packageName>
-										org.jooq.sources
-									</packageName>
-									<directory>
-										target/generated-sources/jooq
-									</directory>
+									<packageName>com.jooq.entities.generated</packageName>
+									<directory>src/main/java</directory>
 								</target>
 							</generator>
 						</configuration>
