@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/config/JPAConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/ArticleTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/DefaultCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Indexes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Keys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Public.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Tables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Articles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/ArticlesRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CommentsRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/repository/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/service/PersistenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jooq/controller/ArticleControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jooq-getting-started.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jooq-getting-started.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,38 +125,38 @@
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state x="441" y="116" key="#xdebugger.evaluate/0.27.1366.692@0.27.1366.692" timestamp="1602491756532" />
-    <state width="1320" height="289" key="GridCell.Tab.0.bottom" timestamp="1602500551836">
+    <state width="1320" height="378" key="GridCell.Tab.0.bottom" timestamp="1602504905014">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602500551836" />
-    <state width="1320" height="289" key="GridCell.Tab.0.center" timestamp="1602500551835">
+    <state width="1320" height="378" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602504905014" />
+    <state width="1320" height="378" key="GridCell.Tab.0.center" timestamp="1602504905013">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602500551835" />
-    <state width="1320" height="289" key="GridCell.Tab.0.left" timestamp="1602500551834">
+    <state width="1320" height="378" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602504905013" />
+    <state width="1320" height="378" key="GridCell.Tab.0.left" timestamp="1602504905012">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602500551834" />
-    <state width="1320" height="289" key="GridCell.Tab.0.right" timestamp="1602500551835">
+    <state width="1320" height="378" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602504905012" />
+    <state width="1320" height="378" key="GridCell.Tab.0.right" timestamp="1602504905013">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602500551835" />
-    <state width="1320" height="378" key="GridCell.Tab.1.bottom" timestamp="1602500453657">
+    <state width="1320" height="378" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602504905013" />
+    <state width="1320" height="378" key="GridCell.Tab.1.bottom" timestamp="1602504905016">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.1.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602500453657" />
-    <state width="1320" height="378" key="GridCell.Tab.1.center" timestamp="1602500453656">
+    <state width="1320" height="378" key="GridCell.Tab.1.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602504905016" />
+    <state width="1320" height="378" key="GridCell.Tab.1.center" timestamp="1602504905015">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.1.center/0.27.1366.692@0.27.1366.692" timestamp="1602500453656" />
-    <state width="1320" height="378" key="GridCell.Tab.1.left" timestamp="1602500453656">
+    <state width="1320" height="378" key="GridCell.Tab.1.center/0.27.1366.692@0.27.1366.692" timestamp="1602504905015" />
+    <state width="1320" height="378" key="GridCell.Tab.1.left" timestamp="1602504905015">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.1.left/0.27.1366.692@0.27.1366.692" timestamp="1602500453656" />
-    <state width="1320" height="378" key="GridCell.Tab.1.right" timestamp="1602500453656">
+    <state width="1320" height="378" key="GridCell.Tab.1.left/0.27.1366.692@0.27.1366.692" timestamp="1602504905015" />
+    <state width="1320" height="378" key="GridCell.Tab.1.right" timestamp="1602504905016">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.1.right/0.27.1366.692@0.27.1366.692" timestamp="1602500453656" />
+    <state width="1320" height="378" key="GridCell.Tab.1.right/0.27.1366.692@0.27.1366.692" timestamp="1602504905016" />
     <state width="683" height="347" key="XDebugger.FullValuePopup" timestamp="1602491714117">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
@@ -205,7 +183,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jooq/service/ArticleService.java</url>
-          <line>53</line>
+          <line>56</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
