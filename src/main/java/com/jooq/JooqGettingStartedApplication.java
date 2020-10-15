@@ -20,6 +20,7 @@ import static com.jooq.entities.generated.Tables.CUSTOMER;
 import static com.jooq.entities.generated.Tables.FILM;
 import static com.jooq.entities.generated.Tables.FILM_ACTOR;
 import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.mapping;
 import static org.jooq.impl.DSL.count;
 import static org.jooq.impl.DSL.row;
 import static org.jooq.impl.DSL.select;
@@ -33,6 +34,8 @@ public class JooqGettingStartedApplication {
         DataSource dataSource = createDataSource();
         SpringApplication.run(JooqGettingStartedApplication.class, args);
         DSLContext dslContext = DSL.using(dataSource, SQLDialect.POSTGRES);
+
+//        Fetch an actor by id
         ActorRecord actorRecord = dslContext
                 .selectFrom(ACTOR)
                 .where(ACTOR.ACTOR_ID.eq(1))
@@ -69,10 +72,8 @@ public class JooqGettingStartedApplication {
                 .stream()
                 .collect(groupingBy(r -> r.getValue(ACTOR.FIRST_NAME)
                                 + " " +
-                                r.getValue(ACTOR.LAST_NAME)
-                                + " " +
-                                r.getValue(FILM.TITLE),
-                        Collectors.mapping(r -> r.getValue(FILM.TITLE), Collectors.toList())))
+                                r.getValue(ACTOR.LAST_NAME),
+                        mapping(r -> r.getValue(FILM.TITLE), Collectors.toList())))
                 .forEach((k, v) -> log.info("{} -> {}", k, v));
 
 
