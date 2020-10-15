@@ -45,6 +45,7 @@ public class JooqGettingStartedApplication {
 //        Select Actors making join from film actors
         Result<Record3<String, String, Integer>> filmActors = dslContext.select(ACTOR.FIRST_NAME, ACTOR.LAST_NAME, count())
                 .from(ACTOR)
+
                 .join(FILM_ACTOR).on(ACTOR.ACTOR_ID.eq(FILM_ACTOR.ACTOR_ID.cast(Integer.class)))
                 .groupBy(ACTOR.FIRST_NAME, ACTOR.LAST_NAME)
 //                .fetchOne()
