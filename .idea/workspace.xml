@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/repository/CommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jooq-getting-started.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jooq-getting-started.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/init-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jooq/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jooq/controller/ArticleControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +54,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jooq.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jooq.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -121,26 +132,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="491" y="79" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1602732664448">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="491" y="79" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.27.1366.692@0.27.1366.692" timestamp="1602732664448" />
     <state x="441" y="116" key="#xdebugger.evaluate" timestamp="1602491756532">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state x="441" y="116" key="#xdebugger.evaluate/0.27.1366.692@0.27.1366.692" timestamp="1602491756532" />
-    <state width="1320" height="378" key="GridCell.Tab.0.bottom" timestamp="1602504905014">
+    <state width="1320" height="204" key="GridCell.Tab.0.bottom" timestamp="1602732840956">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602504905014" />
-    <state width="1320" height="378" key="GridCell.Tab.0.center" timestamp="1602504905013">
+    <state width="1320" height="204" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602732840956" />
+    <state width="1320" height="204" key="GridCell.Tab.0.center" timestamp="1602732840954">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602504905013" />
-    <state width="1320" height="378" key="GridCell.Tab.0.left" timestamp="1602504905012">
+    <state width="1320" height="204" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602732840954" />
+    <state width="1320" height="204" key="GridCell.Tab.0.left" timestamp="1602732840954">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602504905012" />
-    <state width="1320" height="378" key="GridCell.Tab.0.right" timestamp="1602504905013">
+    <state width="1320" height="204" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602732840954" />
+    <state width="1320" height="204" key="GridCell.Tab.0.right" timestamp="1602732840955">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="378" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602504905013" />
+    <state width="1320" height="204" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602732840955" />
     <state width="1320" height="378" key="GridCell.Tab.1.bottom" timestamp="1602504905016">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
@@ -161,22 +176,26 @@
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state width="683" height="347" key="XDebugger.FullValuePopup/0.27.1366.692@0.27.1366.692" timestamp="1602491714117" />
-    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602500392777">
+    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602732534895">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.692@0.27.1366.692" timestamp="1602500392777" />
+    <state x="293" y="27" width="770" height="692" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.692@0.27.1366.692" timestamp="1602732534895" />
     <state x="449" y="177" width="458" height="389" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602438140286">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state x="449" y="177" width="458" height="389" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.692@0.27.1366.692" timestamp="1602438140286" />
+    <state x="416" y="142" width="524" height="460" key="extract.method.dialog" timestamp="1602732734520">
+      <screen x="0" y="27" width="1366" height="692" />
+    </state>
+    <state x="416" y="142" width="524" height="460" key="extract.method.dialog/0.27.1366.692@0.27.1366.692" timestamp="1602732734520" />
     <state x="373" y="111" width="620" height="522" key="find.popup" timestamp="1602498472245">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state x="373" y="111" width="620" height="522" key="find.popup/0.27.1366.692@0.27.1366.692" timestamp="1602498472245" />
-    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1602500656113">
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1602732646790">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup/0.27.1366.692@0.27.1366.692" timestamp="1602500656113" />
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup/0.27.1366.692@0.27.1366.692" timestamp="1602732646790" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -26,7 +27,7 @@ public class ArticleController {
     }
 
     @GetMapping
-    public ResponseEntity<List<ArticleTitle>> getTitles() {
-        return ResponseEntity.ok(articleService.getCustomArticles());
+    public ResponseEntity<List<ArticleTitle>> searchArticleByTitle(@RequestParam("title") String title) {
+        return ResponseEntity.ok(articleService.searchArticleByTitleWithComments(title));
     }
 }

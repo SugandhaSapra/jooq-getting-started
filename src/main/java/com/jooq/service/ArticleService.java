@@ -14,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
-import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
 
@@ -37,12 +36,13 @@ public class ArticleService {
     }
 
     @Transactional
-    public List<ArticleTitle> getCustomArticles() {
+    public List<ArticleTitle> searchArticleByTitleWithComments(String title) {
         SelectConditionStep<Record1<String>> jooqQuery = dslContext
                 .select(ARTICLES.TITLE)
                 .from(ARTICLES)
                 .leftJoin(COMMENTS).on(ARTICLES.ID.eq(COMMENTS.ARTICLE_ID))
-                .where(ARTICLES.TITLE.like("%Java%"));
+                .where(ARTICLES.TITLE.like("%" + title + "%"))
+                .and(COMMENTS.BODY.isNotNull());
         EntityManager entityManager = persistenceService.getEntityManager();
         Query q = entityManager.createNativeQuery(jooqQuery.getSQL(), "ArticleTitle");
         setBindParameterValues(q, jooqQuery);
