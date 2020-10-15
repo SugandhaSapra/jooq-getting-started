@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/init-schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +46,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jooq.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.jooq.entities" />
-      <recent name="com.jooq.type" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jooq.entities" />
+      <recent name="com.jooq.type" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ActorControllerTest.should_get_actors">
