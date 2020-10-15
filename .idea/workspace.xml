@@ -4,109 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/dto/ActorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/DefaultCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Indexes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Keys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Public.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Routines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Sequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/Tables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/domains/Year.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/enums/MpaaRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/GetCustomerBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/GroupConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/InventoryHeldByCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/InventoryInStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/LastDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/routines/_GroupConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/ActorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/CustomerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/FilmActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/FilmCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/FilmInStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/FilmList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/FilmNotInStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/NicerButSlowerFilmList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/RewardsReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/SalesByFilmCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/SalesByStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/StaffList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/ActorInfoRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/ActorRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/AddressRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CategoryRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CityRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CountryRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CustomerListRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/CustomerRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmActorRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmCategoryRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmInStockRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmListRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmNotInStockRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/FilmRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/InventoryRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/LanguageRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/NicerButSlowerFilmListRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/PaymentRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/RentalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/RewardsReportRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/SalesByFilmCategoryRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/SalesByStoreRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/StaffListRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/StaffRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jooq/entities/generated/tables/records/StoreRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/JooqGettingStartedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/JooqGettingStartedApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/config/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/controller/ActorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Article.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/entities/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jooq/service/ActorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jooq/type/ArticleStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jooq/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jooq/controller/ActorControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/DefaultCatalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Keys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Public.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Sequences.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/Tables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/pojos/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq-getting-started/com/jooq/entities/tables/records/BookRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/DefaultCatalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Keys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Public.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Sequences.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/Tables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/tables/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jooq/org/jooq/sources/tables/records/BookRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jooq-getting-started-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jooq.JooqGettingStartedApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.jooq.JooqGettingStartedApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.jooq.JooqGettingStartedApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.jooq.JooqGettingStartedApplicationTests.txt" afterDir="false" />
-    </list>
+    <list default="true" id="fb35e680-291e-424c-850d-f619efc9bcad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,22 +152,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="204" key="GridCell.Tab.0.bottom" timestamp="1602698910164">
+    <state width="1320" height="204" key="GridCell.Tab.0.bottom" timestamp="1602699583376">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602698910164" />
-    <state width="1320" height="204" key="GridCell.Tab.0.center" timestamp="1602698910163">
+    <state width="1320" height="204" key="GridCell.Tab.0.bottom/0.27.1366.692@0.27.1366.692" timestamp="1602699583376" />
+    <state width="1320" height="204" key="GridCell.Tab.0.center" timestamp="1602699583376">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602698910163" />
-    <state width="1320" height="204" key="GridCell.Tab.0.left" timestamp="1602698910163">
+    <state width="1320" height="204" key="GridCell.Tab.0.center/0.27.1366.692@0.27.1366.692" timestamp="1602699583376" />
+    <state width="1320" height="204" key="GridCell.Tab.0.left" timestamp="1602699583375">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602698910163" />
-    <state width="1320" height="204" key="GridCell.Tab.0.right" timestamp="1602698910164">
+    <state width="1320" height="204" key="GridCell.Tab.0.left/0.27.1366.692@0.27.1366.692" timestamp="1602699583375" />
+    <state width="1320" height="204" key="GridCell.Tab.0.right" timestamp="1602699583376">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602698910164" />
+    <state width="1320" height="204" key="GridCell.Tab.0.right/0.27.1366.692@0.27.1366.692" timestamp="1602699583376" />
     <state x="266" y="118" width="824" height="508" key="IDE.errors.dialog" timestamp="1602687635415">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
@@ -282,9 +180,9 @@
       <screen x="0" y="27" width="1366" height="692" />
     </state>
     <state x="449" y="190" width="458" height="363" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.692@0.27.1366.692" timestamp="1602410181317" />
-    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1602694833481">
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1602699661221">
       <screen x="0" y="27" width="1366" height="692" />
     </state>
-    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup/0.27.1366.692@0.27.1366.692" timestamp="1602694833481" />
+    <state x="346" y="40" width="672" height="678" key="search.everywhere.popup/0.27.1366.692@0.27.1366.692" timestamp="1602699661221" />
   </component>
 </project>
