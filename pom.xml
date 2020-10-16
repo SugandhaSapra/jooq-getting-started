@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<jooq-version>3.10.3</jooq-version>
 		<postgres-version>42.2.17</postgres-version>
 	</properties>
 
@@ -44,6 +45,7 @@
 			<artifactId>postgresql</artifactId>
 			<version>${postgres-version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -60,27 +62,15 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>sql-maven-plugin</artifactId>
+				<groupId>org.jooq</groupId>
+				<artifactId>jooq-codegen-maven</artifactId>
 				<executions>
 					<execution>
-						<phase>initialize</phase>
+						<id>generate-postgre</id>
+						<phase>generate-sources</phase>
 						<goals>
-							<goal>execute</goal>
+							<goal>generate</goal>
 						</goals>
-						<configuration>
-								<driver>org.postgresql.Driver</driver>
-								<url>jdbc:postgresql://localhost:15432/writerpad</url>
-								<username>user</username>
-								<password>password</password>
-							<srcFiles>
-								<srcFile>src/main/resources/init-schema.sql</srcFile>
-							</srcFiles>
-						</configuration>
 					</execution>
 				</executions>
 				<dependencies>
@@ -91,6 +81,31 @@
 						<scope>runtime</scope>
 					</dependency>
 				</dependencies>
+
+						<configuration>
+							<!--Insert your DB configuration-->
+							<jdbc>
+								<driver>org.postgresql.Driver</driver>
+								<url>jdbc:postgresql://localhost:15432/dvdrental</url>
+								<user>user</user>
+								<password>password</password>
+							</jdbc>
+							<generator>
+								<database>
+									<name>
+										org.jooq.meta.postgres.PostgresDatabase
+									</name>
+									<includes>.*</includes>
+									<excludes></excludes>
+									<inputSchema>public</inputSchema>
+								</database>
+								<target>
+									<packageName>com.jooq.entities.generated</packageName>
+									<directory>src/main/java</directory>
+								</target>
+							</generator>
+						</configuration>
+
 			</plugin>
 		</plugins>
 	</build>

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - "15432:5432"
+    restart: always
+    volumes:
+      - ./sql/postgres:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'password'
+      POSTGRES_DB: 'dvdrental'
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - "1080:1080"
+    links:
+      - postgres
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'email@domain.com'
+      PGADMIN_DEFAULT_PASSWORD: 'postgres'
